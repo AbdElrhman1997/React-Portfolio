@@ -1,0 +1,51 @@
+.contact-card {
+    background-color: var(--color-bg-variant);
+    height: fit-content;
+    border-radius: 20px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+.contact-card a {
+    text-decoration: none;
+    color: white;
+}
+.contact-card:hover {
+    background: transparent;
+    border: 1px solid var(--color-bg-variant);
+}
+.contact-card div {
+    margin: 5px 0;
+}
+input,textarea {
+    width: 100%;
+    padding: 1rem;
+    resize:none;
+    background-color: transparent;
+    border: 2px solid var(--color-primary-variant);
+    border-radius: 10px;
+    margin: 15px 0;
+    color: #fff;
+    overflow: hidden;
+}
+textarea {
+    height: 150px !important;
+}
+.ma {
+    margin-left: 120px;
+}
+.btn-primary-s {
+    background-color: var(--color-primary);
+}
+.btn-primary-s:hover {
+    background: #80caff;
+}
+.send-btn {
+    color: rgb(232, 232, 232);
+    text-decoration: none;
+}

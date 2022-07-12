@@ -1,0 +1,22 @@
+.header {
+    min-height: fit-content;
+}
+
+.container-btn {
+    width: 100%;
+}
+
+.imgHeader {
+    width: 300px;
+    height: 400px;
+    border-radius: 200px 200px 0 0;
+    margin: 35px 0;
+}
+a {
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: var(--color-primary);
+}

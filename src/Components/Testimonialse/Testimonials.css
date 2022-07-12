@@ -1,0 +1,37 @@
+.clients {
+    background-color: var(--color-bg-variant);
+    border-radius: 20px;
+    height: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+@media (max-width:990px) {
+    .clients {
+    height: fit-content;
+    }
+}
+.clients:first-of-type {
+    display: block;
+}
+.client img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.show {
+    display: block;
+    transition: 0.2s ease-in-out;
+}
+.selected {
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
+.size {
+    font-size: 14px;
+}
+.size:hover {
+    cursor: pointer;
+}

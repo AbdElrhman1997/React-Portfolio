@@ -1,0 +1,22 @@
+.card {
+    border-radius: 20px;
+    background-color: var(--color-bg-variant);
+    padding: 15px 15px 0 15px;
+}
+.card-img {
+    height: 180px !important;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.card-img:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+.fit {
+font-size: 1rem;
+}
+@media (max-width:992px) {
+    .fit {
+        font-size: 0.9rem;
+    }
+}

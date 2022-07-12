@@ -1,0 +1,5 @@
+.part {
+    border-radius: 20px;
+    background-color: var(--color-bg-variant);
+    height: fit-content !important;
+}
