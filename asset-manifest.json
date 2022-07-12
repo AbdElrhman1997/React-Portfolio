@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Pizza-with-React/static/css/main.0bc5cf57.css",
+    "main.js": "/Pizza-with-React/static/js/main.8f445740.js",
+    "static/media/CV.pdf": "/Pizza-with-React/static/media/CV.00b2f0bb3ec3a9364534.pdf",
+    "static/media/1.jpg": "/Pizza-with-React/static/media/1.c1ebab3dcce4316acf36.jpg",
+    "static/media/6.jpg": "/Pizza-with-React/static/media/6.a24b6126994d53b05450.jpg",
+    "static/media/4.jpg": "/Pizza-with-React/static/media/4.bce0e13283b959fbd233.jpg",
+    "static/media/5.jpg": "/Pizza-with-React/static/media/5.764c542f19e12e322696.jpg",
+    "static/media/3.jpg": "/Pizza-with-React/static/media/3.d063ca9549cd37342b16.jpg",
+    "static/media/2.jpg": "/Pizza-with-React/static/media/2.5b5b1edbe258e6bfcf3d.jpg",
+    "static/media/myImg.jpg": "/Pizza-with-React/static/media/myImg.be6f818295ee50c0b85f.jpg",
+    "static/media/atia.jpg": "/Pizza-with-React/static/media/atia.eb9d6d2cde55251f99ea.jpg",
+    "static/media/mansor.jpg": "/Pizza-with-React/static/media/mansor.af92ccb5895698925cdb.jpg",
+    "index.html": "/Pizza-with-React/index.html",
+    "main.0bc5cf57.css.map": "/Pizza-with-React/static/css/main.0bc5cf57.css.map",
+    "main.8f445740.js.map": "/Pizza-with-React/static/js/main.8f445740.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bc5cf57.css",
+    "static/js/main.8f445740.js"
+  ]
+}
