@@ -1,5 +1,5 @@
 {
-  "homepage": "https://abdelrhmanMohamed.githuop.io/Portfolio-React",
+  "homepage": "https://AbdelrhmanMohamed.githup.io/Pizza-with-React",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -u build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
