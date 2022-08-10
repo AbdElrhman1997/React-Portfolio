@@ -17,7 +17,7 @@
 }
 .contact-card:hover {
     background: transparent;
-    border: 1px solid var(--color-bg-variant);
+    outline: 4px solid var(--color-bg-variant);
 }
 .contact-card div {
     margin: 5px 0;

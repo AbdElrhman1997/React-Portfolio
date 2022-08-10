@@ -1,16 +1,25 @@
-.card {
+.cardPortofolio {
     border-radius: 20px;
     background-color: var(--color-bg-variant);
     padding: 15px 15px 0 15px;
+    margin: 1rem;
 }
 .card-img {
     height: 180px !important;
     border-radius: 20px;
     transition: .3s ease-in-out;
 }
-.card-img:hover {
+.imgCont {
+    overflow: hidden;
+}
+.imgCont:hover .card-img{
     cursor: pointer;
-    opacity: .6;
+    transform: scale(1.1,1.1);
+    opacity: .7;
+}
+.w-fit {
+    margin-right: 0.2rem;
+    width: fit-content;
 }
 .fit {
 font-size: 1rem;
@@ -18,5 +27,30 @@ font-size: 1rem;
 @media (max-width:992px) {
     .fit {
         font-size: 0.9rem;
+    }
+}
+@media (max-width:412px){
+    .cardPortofolio {
+        width: 85%;
+    }
+}
+@media (min-width:412px) and (max-width:609px) {
+    .cardPortofolio {
+        width: 70%;
+    }
+}
+@media (min-width:609px) and (max-width:767px) {
+    .cardPortofolio {
+        width: 40%;
+    }
+}
+@media (min-width:767px) and (max-width:992px) {
+    .cardPortofolio {
+        width: 35%;
+    }
+}
+@media (min-width:992px) {
+    .cardPortofolio {
+        width: 27%;
     }
 }

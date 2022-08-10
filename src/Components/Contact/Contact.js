@@ -8,10 +8,10 @@ function Contact() {
 
     return (
         <section className='text-white my-5' id='contact'>
-            <p className='text-center h6 text-white-50'>Get In Touch</p>
-            <p className='text-center h3 text-info'>Contact Me</p>
+            <p className='text-center h6 text-white-50' data-aos='fade-left'>Get In Touch</p>
+            <p className='text-center h3 text-info' data-aos='fade-left'>Contact Me</p>
             <div className='row justify-content-around'>
-                <div className='col-lg-4 col-10'>
+                <div className='col-lg-4 col-md-4 col-sm-7 col-10' data-aos='fade-right'>
                     <div className='contact-card'>
                             <HiOutlineMail className='fs-4'/>
                             <div className='fw-bold'>Email</div>
@@ -37,7 +37,7 @@ function Contact() {
                         </a>
                     </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-lg-6 col-md-6 col-sm-7 col-10' data-aos='fade-left'>
                     <input type='text' placeholder='Your Name'/>
                     <input type='text' placeholder='Your Email'/>
                     <textarea placeholder='Your Message'/>

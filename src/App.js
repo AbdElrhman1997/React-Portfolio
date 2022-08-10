@@ -13,8 +13,7 @@ import './Components/Bootstrap/bootstrap.min.css';
 
 function App (){
   return(
-    <div className='app'>
-      <div className='container'>
+    <main className='app'>
         <Nav/>
         <Header/>
         <About/>
@@ -23,9 +22,8 @@ function App (){
         <Portfolio/>
         <Testimonials/>
         <Contact/>
-      </div>
       <Footer/>
-    </div>
+    </main>
   )
 }
     

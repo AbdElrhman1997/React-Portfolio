@@ -1,4 +1,7 @@
 .app {
-    background-color: var(--color-bg);
+    /* background-color: rgb(31, 31, 56); */
+    background-color: var(bg-color);
     color:#fff;
+    width: 100%;
+    overflow: hidden;
 }

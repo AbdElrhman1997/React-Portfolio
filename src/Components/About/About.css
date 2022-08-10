@@ -1,13 +1,15 @@
-* {
-    box-sizing: border-box;
+.about {
+    color: white;
+    min-height: 100vh;
 }
 .btn-primary,.bg-primary {
     background-color: var(--color-bg-variant);
     border: none;
-    transition: .1s ease-in-out;
+    transition: .05s ease-in-out;
 }
 .btn-primary:hover {
-    background-color: rgb(44, 44, 108,0.7);
+    background-color: transparent;
+    outline: 4px solid var(--color-bg-variant);
 }
 .wid {
     width: 50%;
@@ -21,4 +23,19 @@
     width: 80%;
     line-height: 2.3;
     word-spacing:4px;
+}
+.aboutImg {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+}
+.aboutImg:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+@media (max-width:992px) {
+    .image {
+        display: none;
+    }
 }

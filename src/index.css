@@ -8,7 +8,7 @@
   background-color: var(--color-bg);
 }
 :root {
-  --color-bg:#1f1f38;
+  --color-bg:rgb(25, 42, 86);
   --color-bg-variant:#2c2c6c;
   --color-primary:#4db5ff;
   --color-primary-variant:rgba(77,181,255,0.4);
@@ -24,4 +24,9 @@ html {
 }
 .primary {
   color: #4db5ff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
 }

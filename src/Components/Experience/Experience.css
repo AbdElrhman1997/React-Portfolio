@@ -1,5 +1,11 @@
-.part {
+.card {
     border-radius: 20px;
     background-color: var(--color-bg-variant);
     height: fit-content !important;
+}
+@media (min-width:768px) and (max-width:992px) {
+    .card {
+        width: 70%;
+        margin: 0 auto;
+    }
 }

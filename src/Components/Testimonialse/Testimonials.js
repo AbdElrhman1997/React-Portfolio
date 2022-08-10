@@ -1,8 +1,9 @@
 import React, { useRef } from 'react';
 import './Testimonials.css';
-import img from '../images/atia.jpg';
-import img2 from '../images/mansor.jpg';
-import img3 from '../images/myImg.jpg';
+import img from '../../Images/avatar.jpg';
+import img2 from '../../Images/avatar3.png';
+import img3 from '../../Images/avatar4.jpg';
+import img4 from '../../Images/atia.jpg';
 import {FaRegCircle} from 'react-icons/fa';
 
 function Testimonialse() {
@@ -20,11 +21,11 @@ function Testimonialse() {
     }
     return (
         <div className='testimonials my-5' id='testimonials'>
-            <p className='text-center h6 text-white-50'>Review From Clients</p>
-            <p className='text-center h2 text-info mb-5'>Testimonials</p>
-            <div className='row' ref={clients}>
+            <p className='text-center h6 text-white-50' data-aos='fade-left'>Review From Clients</p>
+            <p className='text-center h2 text-info mb-5' data-aos='fade-left'>Testimonials</p>
+            <div className='row' ref={clients} data-aos='fade-right' data-aos-delay='100'>
                 <div className='col-lg-6 col-8 clients p-4 text-center'>
-                    <div className='client my-2'><img src={img}/></div>
+                    <div className='client my-2'><img src={img4}/></div>
                     <div className='my-1 fw-bold'>Mahmoud Atia </div>
                     <p className='m-auto w-75 my-3'>سعدت بالعمل مع عبد الرحمن فقد كان حريصا على تسليم المشروع في وقته رغم التعديلات الكثيره التي أجريناها على المشروع أنصح أي شخص بالتعامل معه وحظا سعيدا</p>
                 </div>
@@ -34,7 +35,7 @@ function Testimonialse() {
                     <p className='m-auto w-75 my-3'>سعدت بالعمل مع عبد الرحمن فقد كان حريصا على تسليم المشروع في وقته رغم التعديلات الكثيره التي أجريناها على المشروع أنصح أي شخص بالتعامل معه وحظا سعيدا</p>
                 </div>
                 <div className='col-lg-6 col-8 clients p-4 d-none text-center'>
-                    <div className='client my-2'><img src={img}/></div>
+                    <div className='client my-2'><img src={img2}/></div>
                     <div className='my-1 fw-bold'>Esam</div>
                     <p className='m-auto w-75 my-3'>سعدت بالعمل مع عبد الرحمن فقد كان حريصا على تسليم المشروع في وقته رغم التعديلات الكثيره التي أجريناها على المشروع أنصح أي شخص بالتعامل معه وحظا سعيدا</p>
                 </div>
